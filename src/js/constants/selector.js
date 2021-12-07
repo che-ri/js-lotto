@@ -1,3 +1,4 @@
+export const APP = '#app'
 export const RESULT_BUTTON = ".open-result-modal-button";
 export const MODAL_CLOSE = ".modal-close";
 export const MODAL = ".modal";
