@@ -1,6 +1,9 @@
 import Lotto from "./lotto.js";
 import * as SELECTOR from "./constants/selector.js";
 
+//components
+import App  from "./App.js";
+
 const lotto = new Lotto({
   $paymentForm: document.querySelector(SELECTOR.PAYMENT_FORM),
   $payment: document.querySelector(SELECTOR.PAYMENT),
@@ -19,3 +22,5 @@ const lotto = new Lotto({
 });
 
 lotto.bindEvents();
+
+App()
